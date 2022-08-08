@@ -1,16 +1,35 @@
 # Part 1
+### 1)
+grep "beed" forest/filescan_00.1
+grep "butt" forest/filescan_00.1
+grep "blas" forest/filescan_00.1 
+grep "bulb" forest/filescan_00.1
+
+### 2)
+grep "zard" forest/filescan_00.2
+grep "nder" forest/filescan_00.2
+grep "leon" forest/filescan_00.2
+
+### 3)
+grep "pika" forest/filescan_00.3
+grep "jigg" forest/filescan_00.3
+grep "meow" forest/filescan_00.3
+grep "ivys" forest/filescan_00.3
+
+### 4)
+grep "psy" forest/filescan_00.4
+grep "squ" forest/filescan_00.4
+grep "war" forest/filescan_00.4
+grep "ven" forest/filescan_00.4
+
+# Part 2
 ### a)
-
-
-
+grep -l "." * | wc -l 
+which gives 16 as the answer
 
 ### b)
-
-
-
-### c)
-
-
+find captured/  -type f -exec wc -l {} + | sort -rn
+pikachu, charizard, beedrill!
 
 
 
