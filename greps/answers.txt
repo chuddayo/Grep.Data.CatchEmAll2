@@ -25,7 +25,7 @@ grep "ven" forest/filescan_00.4
 # Part 2
 ### a)
 grep -l "." * | wc -l 
-which gives 16 as the answer
+which gives 15 as the answer
 
 ### b)
 find captured/  -type f -exec wc -l {} + | sort -rn
